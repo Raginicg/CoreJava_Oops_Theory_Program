@@ -21,7 +21,7 @@ public static void main(String[] args) {
 	
 	System.out.println("s1==s2 "+ s1==s2);  // false
 	System.out.println("s1 equal s2 "+ s1.equals(s2));   // true
-	System.out.println(s2==s3); // true
+	System.out.println(s2==s3); // true --->TRUE BECAUSE IT POINT TO SAME MEMORY LOCATION
 }
 	
 }
