@@ -18,7 +18,7 @@ package Basic;
 class EmployeeDetails{
 	private int emp_id; // This is called Data Hiding
 	// For accessing this variable in other class we need to create getter and setter method
-	// Create a getter and setter method for this project
+	// Create a getter and setter method for this variable
 	public void setEmpId(int emp_id1) {
 		emp_id=emp_id1;
 	}

@@ -9,6 +9,11 @@ package Basic;
  * Let's see the simple example:
  */
 
+/*
+ * Q. Can we override main method?
+ * No, You can not override main method, because method override is based on dynamic binding at runtime and
+ * static method are binding at compile time.
+ */
 public class MainMethodOverload {
 public static void main(String[] args) {
 	System.out.println("Main method with String[]");
@@ -19,4 +24,5 @@ public static void main(String a) {
 public static void main() {
 	System.out.println("Main with no argument");
 }
+
 }

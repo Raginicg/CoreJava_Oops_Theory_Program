@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Set;
 
 /*
- * Its store the data according to the Hashcode value.
+ * Its store the data according to the Hash code value.
  * Its store only unique value not the duplicate value.
  */
 public class HashSetDemo {

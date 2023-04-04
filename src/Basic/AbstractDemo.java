@@ -7,6 +7,7 @@ package Basic;
  * 
  * Example- While sending text sms user can not focus on how the message is send.
  * It focus on what the Object is do instead of how it does it. 
+ * You can not create the object of abstract class
  */
 
 //-----------------Abstraction demo with abstract class
@@ -27,6 +28,8 @@ public class AbstractDemo {
 	public static void main(String[] args) {
 // object is created using normal class not the abstract class--->because you can't instantiated or create a object of abstract class
 	Honda h=new Honda();
+	// Bike b=new Bike(); // Its giving error because you cannot create the object of abstract class
 	h.run();  //calling method using normal class object
+	// b.run();
 	}
 }
