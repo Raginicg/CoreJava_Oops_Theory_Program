@@ -3,7 +3,7 @@ package Basic;
  */
 
 /*
- * The operator == also check whether the references of the two string objects are equal or not. 
+ * The operator == check the content as well as the references of the string, they are equal or not. 
  * Although both of the strings contain the same content, their references 
  * are not equal because both are created by different ways(Constructor and String literal) therefore, a == b is unequal
  *

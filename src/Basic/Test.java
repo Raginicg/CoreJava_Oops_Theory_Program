@@ -14,6 +14,7 @@ public class Test {
 		byte a=10;
 		byte b=14;
 		Test t=new Test(a,b);
+	
 	}
 
 }

@@ -44,6 +44,11 @@ public static void main(String[] args) {
  	b1.credit();
  	b1.debit();
  	b1.loan();
+ 	
+ // Bank1 b2=new Bank1();  // this line gives error
+ 	/*
+ 	 * This line gives error because instance of abstract class cannot be created.
+ 	 */
 
 }
 }
