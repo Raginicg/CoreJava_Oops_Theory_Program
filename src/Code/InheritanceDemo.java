@@ -1,11 +1,11 @@
-package Basic;
+package Code;
 /**@author ragigupt
  */
 
 /*
- * Inheritance is the mechanism in which Acquire the property / behaviors of one Object
+ * Inheritance is the mechanism in which Acquire the property / behaviours of one Object
  * to the another object of another class.
- * It used for code reusebility and method overriding.
+ * It used for code reusability and method overriding.
  * Single, Multilevel, Multiple, Hierarchical, Hybrid inheritance
  */
 // Single level Inheritance

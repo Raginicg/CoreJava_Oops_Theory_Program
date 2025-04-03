@@ -9,7 +9,7 @@ public class Swap_Without_Temp {
 		a=a+b;
 		b=a-b;
 		a=a-b;
-		 System.out.println("After swapping:" + "a="+ a+ ",b="+ b);
+		System.out.println("After swapping:" + "a="+ a+ ",b="+ b);
 		
 	}
 

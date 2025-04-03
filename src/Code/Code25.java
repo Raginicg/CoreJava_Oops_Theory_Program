@@ -29,7 +29,7 @@ public class Code25 {
 //		Find the even number
 		System.out.println("Even number");
 		list.stream().filter(num -> num % 2==0).forEach(System.out::println);
-//	 Find even number
+//	 Find odd number
 		System.out.println("Odd number" );
 		list.stream().filter(num -> num % 2!=0).forEach(System.out::println); {
 			
