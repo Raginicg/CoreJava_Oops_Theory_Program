@@ -21,12 +21,12 @@ public class Code25 {
 		/*
 		 * In this list of element find the first occurrence element
 		 */
-		List<Integer> list=Arrays.asList(10,23,22,45,44,5,56,53, 10,22);
+		List<Integer> list=Arrays.asList(10,23,22,45,44,5,56,53,10,22);
 		list.stream().findFirst().ifPresent(System.out::println);
 //	How many elements present in list
 		System.out.println("List elemets count are "+ list.stream().count());
 		
-//		Find the even number
+//	Find the even number
 		System.out.println("Even number");
 		list.stream().filter(num -> num % 2==0).forEach(System.out::println);
 //	 Find odd number
@@ -70,9 +70,9 @@ public class Code25 {
 			System.out.println("It contain Unique value");
 		}
 //		Square a list of number
-		System.out.println("Square a list of number and print the value who is graeter then 50");
+		System.out.println("Square a list of number and print the value who is greater then 50");
 		list.stream().map(num->num*num).filter(num-> num>50).forEach(System.out::println);
-		
+			
 //		 Sort the array and convert into the stream
 		Arrays.sort(numbers);
 		Arrays.stream(numbers).forEach(System.out::println);

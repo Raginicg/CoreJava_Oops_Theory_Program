@@ -3,7 +3,7 @@ package Basic;
  */
 
 /*
- * A class having multiple method with different number of parameter or data type is called method overloading
+ * A class having multiple method with same name but different number of parameter or data type is called method overloading
  * 
  */
 public class MethodOverloading {

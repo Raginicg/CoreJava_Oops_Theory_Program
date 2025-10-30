@@ -4,7 +4,7 @@ public class ArrayDemo {
 /**
  * 
  * @author ragigupt
- * Array is a collection of similar datatype with continuous memory locations.
+ * Array is a collection of similar data type with continuous memory locations.
  * We can set only fixed number of element in java array.
  * Array in Java is index-based, the first element of the array is stored at the 0th index,
  * 2nd element is stored on 1st index and so on.
@@ -22,7 +22,7 @@ public class ArrayDemo {
 		System.out.println(a[i]); 
 		
 		// The length of an array can be found using the length property of the array.
-		System.out.println("Lenth of array"+ a.length);
+		System.out.println("Length of array"+ a.length);
 		
 		int a1[]={33,3,4,5};//declaration, instantiation and initialization  
 		for(int i=0;i<a1.length;i++)//length is the property of array  

@@ -17,7 +17,7 @@ isEmpty() checks for the absence of a value (true if absent).
 		System.out.println(op.isEmpty());
 		System.out.println(op.get());
 		System.out.println(op.orElse("No values for the object"));
-	
+		
 		
 	}
 

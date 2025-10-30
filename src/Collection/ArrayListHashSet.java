@@ -5,6 +5,7 @@ import java.util.HashSet;
 
 /*
  * ArrayList-
+ * Dynamic in nature
  * AraryList is a class which is implements to the list interface
  * AraryList contains duplicate elements
  * Can store multiple null values

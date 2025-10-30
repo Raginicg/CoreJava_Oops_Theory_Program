@@ -2,16 +2,18 @@ package Basic;
 /** @author ragigupt
  * 
  * Abstraction is the process of hiding the implementation and showing only functionality to the User
- * Only show the essential information and hide the internal details.
+ * Only show the essential information and hide the internal details. 
+ * It helps reduce complexity and increase efficiency.
  * You can achieve abstraction using two ways----->Using abstract class---->Using Interface
  * 
- * Example- While sending text sms user can not focus on how the message is send.
+ * Example- While sending text sms user can not focus on how the message is sent.
  * It focus on what the Object is do instead of how it does it. 
  */
 
 //-----------------Abstraction demo with abstract class
 
 abstract class Bike // abstract class is created using abstract keyword in starting
+// Abstract class--->Abstract class is a class that cannot be instantiated, its contains abstract and non abstract method.
 {
 	abstract void run(); // abstract method always declare with no body
 }

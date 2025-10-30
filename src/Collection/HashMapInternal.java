@@ -13,7 +13,7 @@ public class HashMapInternal {
 	 * Check for the Hash Collision--->
 	 * No- then add the elements
 	 * Yes- key already present??-->NO --> linked List as next nod
-	 * yES-->Add to linked list by replacing existing equal node 
+	 * YES-->Add to linked list by replacing existing equal node 
 	 */
 	public static void main(String[] args) {
 		java.util.HashMap<String, Integer> map = new java.util.HashMap<>();
