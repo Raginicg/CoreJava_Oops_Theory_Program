@@ -14,6 +14,7 @@ public class ArrayListSort {
 		System.out.println("Arraylist in Descending Order");
 		Collections.sort(arraylist, Collections.reverseOrder());
 		System.out.println(arraylist);
+		System.out.println(Collections.binarySearch(arraylist, "Apple"));
 	}
 
 }

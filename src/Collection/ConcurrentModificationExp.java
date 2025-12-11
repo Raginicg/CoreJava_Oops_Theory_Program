@@ -7,6 +7,12 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
+ * Need of Concurrent Collection?
+ * -Because most of the Tradition collection are Not-Thread safe.
+ * -Vector and Hashtable is Thread safe, but at a time only one operation can be perform.
+ * To overcome this problem Concurrent Collection come in the picture.
+ * It a Thread Safe but we can perform multiple operation at a time.
+ * 
  * ConcurrentModification is the Runtime exception that occurs when a collection is modified during iteration.
  * 
  * ConcurrentHashMap is a thread-safe, high-performance implementation of the Map.

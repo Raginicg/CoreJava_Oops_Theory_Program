@@ -5,7 +5,11 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
+ * Its a types of Cursor- Universal cursor and we can used with any collection class.
  * Iterator- Its an Interface, Provide a way to traverse elements by elements.
+ * Method- public boolean hasNext()
+ * public object next()
+ * public void remove()
  */
 public class IteratorDemo {
 public static void main(String[] args) {
