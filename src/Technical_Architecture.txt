@@ -1,0 +1,31 @@
+Technical Architecture
+
+----------------------------------Pharmacy Management System-----------------------------------
+
+[Angular Frontend]
+		||
+		||
+[API Gateway]
+		||
+		||
+Microservices Layer
+		||
+		||
+----User Service [Handle Auth, Roles, JWT]
+----Drug Service [CRUD drug, Inventory, Pricing]
+----Supplier [Supplier, contract]
+----Order [Doctor/ Admin orders, status]
+----Sales [Aggregates, Analytics]
+		||
+		||
+Event Bus: RabbitMQ (async events)
+		||
+		||
+Data Layer
+(PostgresSQL)- users, orders, drugs
+		||
+		||
+[Service Registry: Eureka]- Discovery 
+[Config server: Git backend, externalized configs]]
+[Observability: Grafana, Prometheus]
+[Security: Spring security]
